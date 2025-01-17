@@ -26,6 +26,7 @@ footer {
 }
 figure {
     background-color: white;
+    color: #3a9a5f;
     border: 2px solid #dddddd;
     border-radius: 8px;
     padding: 10px;
@@ -34,7 +35,7 @@ figure {
 figure:hover {
     transform: scale(1.05);
 }
-figure image {
+figure img {
     max-width: 50%;
     border-radius: 4px;
     display: block;
@@ -43,6 +44,6 @@ figure image {
 figcaption a {
     color: #3a9a5f;
 }
-figcaption :hover {
+figcaption:hover {
     text-decoration: underline;
 }
