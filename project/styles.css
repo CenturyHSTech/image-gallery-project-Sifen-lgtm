@@ -1,21 +1,31 @@
 body {
-    font-family: 'roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: "Roboto", serif;
     background-color: #cad1db;
-    color: black;
+    color: #000000;
+}
+h1,h2 {
+    font-family: "EB Garamond", serif;
 }
 header {
+    background-image: url(images/background.jpg);
+    height: 180px;
     text-align: center;
     background-color: #8da8ce;
-    color: black;
+    color: #000000;
     padding: 1rem 0;
 }
+header div {
+    background-color: #cad1db;
+    padding: 1em;
+    max-width: 98%;
+    width: 30em;
+}
 footer {
+    clear: both;
     text-align: center;
     padding: 1rem 0;
     background-color: #8da8ce;
-    color: black;
+    color: #000000;
 }
 .gallery {
     display: flex;
@@ -26,9 +36,14 @@ footer {
 }
 figure {
     background-color: white;
-    color: #3a9a5f;
-    border: 2px solid #dddddd;
+    border-color: #26643E;
     border-radius: 8px;
+    border-width: 4px;
+    border-style: solid;
+    color: #26643E;
+    width: 442px;
+    float: left;
+    border: 2px solid #dddddd;
     padding: 10px;
     text-align: center;
 }
@@ -36,13 +51,13 @@ figure:hover {
     transform: scale(1.05);
 }
 figure img {
-    max-width: 50%;
+    max-width: 100%;
     border-radius: 4px;
     display: block;
     margin-bottom: 0.5rem;
 }
 figcaption a {
-    color: #3a9a5f;
+    color: #26643E;
 }
 figcaption:hover {
     text-decoration: underline;
